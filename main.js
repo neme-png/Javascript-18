@@ -1,17 +1,11 @@
 let person = {
-
     "name" : "Fabio",
     "surname" : "Santangelo",
     "age" : "20 Years old",
-    "greet" : function greetName() {
+    "greet" : function saluta(nome) {
     console.log(
-        "Hello", this.name, "how are you today?"
-    );       
+    `Hello, ${nome}, how are you today?`);       
 },
 };
-
-person.greet();
-
-
-
+person.greet(`fabio`);
    
